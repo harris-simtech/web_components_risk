@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/st-table.esm.js"></script>
+    <script nomodule src="/build/st-table.js"></script>
+  </head>
+  <body>
+      <st-table id='tbl' first='test'></st-table>
+  </body>
+    <script>
+	let tbl = document.getElementById('tbl');
+	tbl.header=['Name', 'Description', 'Likelihood'];
+	tbl.data=[{"name":"Fire","description":"It burns","likelihood":"Low"},{"name":"Malicious Attack","description":"Hacking exposes confidential data to external agents","likelihood":"High"}, {"name":"Theft by Outsiders","description":"Theft of hardware that contains mission-critical and confidentail data.","likelihood":"Medium"}];
+    </script>
+</html>

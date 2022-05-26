@@ -1,0 +1,47 @@
+:host {
+  display: block;
+}
+
+tbody tr:nth-child(odd){
+    background-color:#f8f9fa;
+}
+
+tbody tr:nth-child(even){
+    background-color:#e9ecef;
+}
+
+table{
+    width:800px;
+    padding: 16px 24px;
+    border-collapse: collapse;
+}
+
+
+td{
+
+    padding: 16px 24px;
+    text-align: center;
+
+}
+
+th {
+    background-color:#087f5b;
+    color:#fff;
+    padding: 16px 24px;
+    width: 33%;
+}
+
+input{
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+div{
+    width:800px;
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+
+}
